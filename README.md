@@ -1,4 +1,4 @@
-# gallery_app
+# gallery app
 
 A new Flutter project.
 
