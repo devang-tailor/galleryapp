@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Gallery App',
+      debugShowCheckedModeBanner: false,
+      title: 'Gallery App',
       initialRoute: '/',
       getPages: AppRouter.pages,
     );
